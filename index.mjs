@@ -19,7 +19,6 @@ if(productsData && productsData.length > 0){
           console.error('Something went wrong the list of  products:', err);
           return;
       }
-      console.error('The file was successfully saved as productList.json');
+      console.log('The file was successfully saved as productList.json');
   });
 }
-

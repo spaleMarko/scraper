@@ -39,7 +39,7 @@ const getData = async () => {
             const jsonResponse = JSON.parse(response)
     
             // Create needed element
-            const price = jsonResponse.product_price
+            const price = +jsonResponse.product_price
             const shopName = jsonResponse.shop_name
             const position = +jsonResponse.position;
     
